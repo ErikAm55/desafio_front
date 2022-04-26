@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 80%;
+    margin-left: 60px;
+}
+
+.body-page{
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 5px #f8f8f8;
+    height: 50px;
+    padding: 50px;
+}
+
+.navbar-items ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.field input{
+    box-shadow: 1px 5px #F8F8F8;
+    width: 400px;
+}
+
+.navbar-items ul li{
+    margin-right: 30px;
+}
+
+.navbar-items a:hover{
+    color:rgb(38, 146, 218);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+.search{
+    height: 18px;
+}
+
+.active{
+    color:rgb(38, 146, 218);
+}
+
+.road-page ul, .supermario-images{
+    display: flex;
+}
+
+.road-page ul li{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+.litle-image img{
+    height: 50px;
+}
+
+.supermario-images{
+    padding: 20px;
+}
+
+.title-product{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.subtitle-product{
+    margin-top: 20px;
+    height: 140px;
+    background-color: rgb(240, 238, 238);
+    margin-bottom: 20px;
+    box-shadow: 10px 5px 10px 5px #f8f8f8;
+}
+
+.subtitle-product p{
+    margin-left: 20px;
+}
+
+.price-active{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color:rgb(38, 146, 218);
+    font-size: 40px;
+}
+
+.is-primary{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+.calculator{
+    background-color: rgb(38, 146, 218);
+    padding: 20px;
+    margin-left: 30px;
+    box-shadow: 5px 10px #f8f8f8;
+}
+
+.calculator-input .large{
+    height: 40px;
+    width: 300px;
+}
+
+.calculator-input .enjoy{
+    width: 50px;
+    height: 40px;
+}
+
+.calculator h1, .is-dark{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+}
+
+.text-description{
+    padding: 40px;
+}
+
+.text-description h1, .other-title{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color:rgb(38, 146, 218);
+}
+
+.card-products{
+    display: flex;
+    justify-content: center;
+}
+
+.card-one, .card-two, .card-three{
+    margin-right: 20px;
+}
+
+.card-image img{
+    height: 200px;
+}
+
+.card-one, .card-two, .card-three{
+    background-color: rgb(240, 238, 238);
+    box-shadow: 5px 5px 5px 5px #F8F8F8;
+    padding: 10px;
+    width: 20%;
+}
+
+.price-others{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color:rgb(38, 146, 218);
+}
+
+.footer-page{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 100px;
+    align-items: center;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: flex-end;
+    background-color: darkblue;
+    height: 100%;
+    width: 40%;
+}
+
+.footer-logo img{
+    height: 70px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.copyright{
+    background-color: rgb(38, 146, 218);
+    color: white;
+    width: 60%;
+    height: 100%;
+    align-items: left;
+}
+
+.copyright p{
+    padding: 40px;
+}
+
+@media only screen and (max-device-width: 900px) {
+    .body-page { 
+        width: 100%; 
+    } 
+
+    .menu-page{
+        height: 50px;
+    }
+
+    .field input{
+        width: 100px;
+    }
+
+    .big-image img{
+        height: 250px;
+    }
+
+    .litle-image img{
+        display: none;
+    }
+
+    .title-product{
+        font-size: 30px;
+    }
+
+    .price-active{
+        font-size: 30px;
+    }
+
+    .calculator{
+        width: 400px;
+    }
+
+    .calculator-input .large{
+        width: 70px;
+    }
+
+    .card-products img{
+        height: 100px;
+    }
+
+    .card-text{
+        font-size: 12px;
+    }
+
+    }
